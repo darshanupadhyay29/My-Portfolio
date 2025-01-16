@@ -147,13 +147,13 @@ export default function Home() {
           target="_blank"
           className="hover:text-gray-400"
         >
-          <img src="/leetcode.png" alt="Leetcode" height={40} width={40}></img>
+          <img src="/leetcode.png" alt="Leetcode" height={45} width={45}></img>
         </Link>
         <Link
           href="mailto:dbdarshanupadhyay@gmail.com"
           className="hover:text-gray-400"
         >
-          <img src="/gmail.png" alt="Gmail" height={40} width={40}></img>
+          <img className="mt-1" src="/gmail.png" alt="Gmail" height={40} width={40}></img>
         </Link>
       </section>
 
@@ -261,7 +261,7 @@ export default function Home() {
             <img
               height={400}
               width={400}
-              src="/socio-commerce.png"
+              src="/Socio-commerce.png"
               alt="Socio-commerce image"
               className="transition-transform duration-300 hover:scale-110 p-4"
             />
